@@ -4,7 +4,9 @@
 }
 
 body {
-    font-family: "titillium-font", sans-serif;
+    font-family: "titillium-font", Sans-Serif !important;
+    background-color: #E9ECEF !important;
+    height: 100vh;
 }
 
 .root {
@@ -37,26 +39,6 @@ a {
 .page-heading {
     text-align: center;
     color: #BF3131;
-}
-
-.product-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    list-style-position: inside;
-    padding: 0;
-}
-
-.product-list > li {
-    border: 1px solid #cbd5e1;
-    border-radius: 0.25rem;
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-}
-
-.product-list > li:last-child {
-    margin-bottom: 0;
 }
 
 .product-image {
